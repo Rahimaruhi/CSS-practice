@@ -1,0 +1,93 @@
+body {
+	background-image: url("C:/Users/user/Desktop/Web_dev/CSS_practise/images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+p.center {
+	text-align: center;
+	color:  yellow;
+}
+p.large{
+	font-size: 200%;
+}
+.dotted{border-style: dotted;
+padding: 10px;}
+.dashed{border-style: dashed;
+padding: 10px;}
+.solid{border-style: solid;
+padding: 10px;
+ outline-style: dotted;
+  outline-color: blue;}
+.double{border-style: double;
+padding: 10px;}
+.groove{border-style: groove;
+padding: 10px;}
+.ridge{border-style: ridge;
+padding: 10px;}
+.inset{border-style: inset;
+   padding: 10px;
+   margin: 30px;
+   outline: 1px solid red;
+   outline-offset: 15px;
+  }
+.outset{border-style: outset;
+padding: 10px;}
+.mix{border-style: mix;
+padding: 10px;}
+ div {
+ 	height: 100px;
+ 	width: 500px;
+ 	background-color: yellowgreen;
+ 	font-family: cursive;
+ }
+ .div {
+ 	margin:20px ;
+ 	padding: 50px;
+ 	border: 20px green;
+ }
+ .uppercase {
+text-transform: uppercase;
+text-shadow: 2px 2px red;
+ }
+ .lowercase {
+text-transform: lowercase;
+ }
+ .capitalize {
+text-transform: capitalize;
+ }
+ /* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+
+}
+ul.a {
+  list-style-type: circle;
+}
+
+ul.b {
+  list-style-type: square;
+}
+
+ol.c {
+  list-style-type: upper-roman;
+}
+
+ol.d {
+  list-style-type: lower-alpha;
+}
